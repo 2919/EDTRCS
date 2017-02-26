@@ -1,1 +1,1 @@
-#https://plug.dj/edtentertainment ϟ●Electro Dubstep & Techno●ϟ
+[ϟ●Electro Dubstep & Techno●ϟ](https://plug.dj/edtentertainment)
