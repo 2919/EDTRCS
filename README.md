@@ -1,1 +1,1 @@
-# EDTRCS
+# ϟ●Electro Dubstep & Techno●ϟ
