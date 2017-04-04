@@ -30,8 +30,9 @@ Timowh:   5658276
     background: #555D70;
     color: white;
     bottom: 21px;
-    position: relative;
-    right: 93px;
+    position: absolute;
+    right: 0px;
+    width: 80px;
 }
 /*normal supporters*/
 #user-rollover.id-3250095.chat .meta,
