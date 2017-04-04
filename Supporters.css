@@ -26,13 +26,14 @@ Timowh:   5658276
 #chat [data-cid^='23785923-'] .un:hover:after,
 #chat [data-cid^='5658276-'] .un:hover:after {
     content: 'EDT Supporter';
-    padding: 3px 7px;
-    background: #555D70;
+    background: url('https://rawgit.com/Satskhi/EDTRCS/master/images/tooltip.png');
+    padding: 3px 6px;
     color: white;
-    bottom: 21px;
+    bottom: 15px;
     position: absolute;
     right: 0px;
-    width: 80px;
+    width: 79px;
+    height: 26px;
 }
 /*normal supporters*/
 #user-rollover.id-3250095.chat .meta,
