@@ -1,10 +1,12 @@
 /*donators:
+Třąρ-Fя:     23785923
 iToxicMusic: 19157671
 Satskhi:     4405644
 Pombär:      3250095
 Timowh:      5658276
 */
 
+#chat [data-cid^='23785923-'] .un:before,
 #chat [data-cid^='19157671-'] .un:before,
 #chat [data-cid^='4405644-'] .un:before,
 #chat [data-cid^='3250095-'] .un:before,
@@ -14,6 +16,7 @@ Timowh:      5658276
     Left: -3px;
     position: relative;
 }
+#chat [data-cid^='23785923-'] .un,
 #chat [data-cid^='19157671-'] .un,
 #chat [data-cid^='4405644-'] .un,
 #chat [data-cid^='3250095-'] .un,
@@ -21,6 +24,7 @@ Timowh:      5658276
     top: -3px !important;
     position: relative;
 }
+#chat [data-cid^='23785923-'] .un:hover:after,
 #chat [data-cid^='19157671-'] .un:hover:after,
 #chat [data-cid^='4405644-'] .un:hover:after,
 #chat [data-cid^='3250095-'] .un:hover:after,
@@ -36,10 +40,12 @@ Timowh:      5658276
     height: 26px;
 }
 /*normal supporters*/
+#user-rollover.id-23785923.chat .meta,
 #user-rollover.id-19157671.chat .meta,
 #user-rollover.id-3250095.chat .meta{
 height: 146px !important;
 }
+#user-rollover.id-23785923.chat .meta:before,
 #user-rollover.id-19157671.chat .meta:before,
 #user-rollover.id-3250095.chat .meta:before{
     content: url("https://dl.dropboxusercontent.com/s/snctnlwc2lz5b0p/EDT-supporter.png");
@@ -47,6 +53,7 @@ height: 146px !important;
     left: 109px;
     position: absolute;
 }
+#user-rollover.id-23785923.chat .meta:after,
 #user-rollover.id-19157671.chat .meta:after,
 #user-rollover.id-3250095.chat .meta:after{
     content: 'EDT Supporter';
