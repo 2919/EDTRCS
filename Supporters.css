@@ -1,12 +1,10 @@
 /*donators:
-Třąρ-Fя:     23785923
 iToxicMusic: 19157671
 Satskhi:     4405644
 Pombär:      3250095
 Timowh:      5658276
 */
 
-#chat [data-cid^='23785923-'] .un:before,
 #chat [data-cid^='19157671-'] .un:before,
 #chat [data-cid^='4405644-'] .un:before,
 #chat [data-cid^='3250095-'] .un:before,
@@ -16,7 +14,6 @@ Timowh:      5658276
     Left: -3px;
     position: relative;
 }
-#chat [data-cid^='23785923-'] .un,
 #chat [data-cid^='19157671-'] .un,
 #chat [data-cid^='4405644-'] .un,
 #chat [data-cid^='3250095-'] .un,
@@ -24,9 +21,7 @@ Timowh:      5658276
     top: -3px !important;
     position: relative;
 }
-#chat [data-cid^='23785923-'] .un:hover:after,
 #chat [data-cid^='19157671-'] .un:hover:after,
-#chat [data-cid^='4405644-'] .un:hover:after,
 #chat [data-cid^='3250095-'] .un:hover:after,
 #chat [data-cid^='5658276-'] .un:hover:after {
     content: 'EDT Supporter';
@@ -40,22 +35,23 @@ Timowh:      5658276
     height: 26px;
 }
 /*normal supporters*/
-#user-rollover.id-23785923.chat .meta,
-#user-rollover.id-19157671.chat .meta,
-#user-rollover.id-3250095.chat .meta{
+#user-rollover.id-19157671 .meta,
+#user-rollover.id-3250095 .meta{
 height: 146px !important;
 }
-#user-rollover.id-23785923.chat .meta:before,
-#user-rollover.id-19157671.chat .meta:before,
-#user-rollover.id-3250095.chat .meta:before{
+#user-rollover.id-4405644 .meta:before,
+#user-rollover.id-5658276 .meta:before,
+#user-rollover.id-19157671 .meta:before,
+#user-rollover.id-3250095 .meta:before{
     content: url("https://dl.dropboxusercontent.com/s/snctnlwc2lz5b0p/EDT-supporter.png");
     top: 120px;
     left: 109px;
     position: absolute;
 }
-#user-rollover.id-23785923.chat .meta:after,
-#user-rollover.id-19157671.chat .meta:after,
-#user-rollover.id-3250095.chat .meta:after{
+#user-rollover.id-4405644 .meta:after,
+#user-rollover.id-5658276 .meta:after,
+#user-rollover.id-19157671 .meta:after,
+#user-rollover.id-3250095 .meta:after{
     content: 'EDT Supporter';
     color: #808691;
     position: absolute;
@@ -63,22 +59,15 @@ height: 146px !important;
     left: 130px;
 }
 /*People who also support another things (eg. RCS)*/
-#user-rollover.id-4405644.chat .meta,
-#user-rollover.id-5658276.chat .meta{
+#user-rollover.id-4405644 .meta,
+#user-rollover.id-5658276 .meta{
 height: 170px !important;
 }
-#user-rollover.id-4405644.chat .meta:before,
-#user-rollover.id-5658276.chat .meta:before{
-    content: url("https://dl.dropboxusercontent.com/s/snctnlwc2lz5b0p/EDT-supporter.png");
-    top: 145px;
-    left: 109px;
-    position: absolute;
+#user-rollover.id-4405644 .meta #isSpecial,
+#user-rollover.id-5658276 .meta #isSpecial{
+    top: 145px !important;
 }
-#user-rollover.id-4405644.chat .meta:after,
-#user-rollover.id-5658276.chat .meta:after{
-    content: 'EDT Supporter';
-    color: #808691;
-    position: absolute;
-    top: 143px;
-    left: 130px;
+#user-rollover.id-4405644 .meta #isSpecialtxt,
+#user-rollover.id-5658276 .meta #isSpecialtxt {
+    top: 143px !important;
 }
