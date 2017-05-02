@@ -26,6 +26,7 @@ Timowh:      5658276
 }
 #chat [data-cid^='23785923-'] .un:hover:after,
 #chat [data-cid^='19157671-'] .un:hover:after,
+#chat [data-cid^='4405644-'] .un:hover:after,
 #chat [data-cid^='3250095-'] .un:hover:after,
 #chat [data-cid^='5658276-'] .un:hover:after {
     content: 'EDT Supporter';
