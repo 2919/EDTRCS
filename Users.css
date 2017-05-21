@@ -14,13 +14,14 @@
 
 /* CHUCK */
  [data-cid^="3469419-"] .badge-box .bdg {
-     background-image: url("http://i.imgur.com/3UHUfwJ.gif") !important;
+     border-radius: 6px !important;
+     background-image: url("http://i.imgur.com/eh2VJbv.gif") !important;
      background-repeat: round !important;
      background-size: 30px !important;
  }
  #user-rollover.id-3469419 .badge-box .bdg {
-     border-radius: 5px !important;
-     background-image: url("http://i.imgur.com/3UHUfwJ.gif") !important;
+     border-radius: 8px !important;
+     background-image: url("http://i.imgur.com/eh2VJbv.gif") !important;
      background-repeat: round !important;
      background-size: 30px !important;
  }
