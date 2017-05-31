@@ -47,7 +47,6 @@ Timowh:      5658276
 }
 /*normal supporters*/
 #user-rollover.id-23785923 .meta,
-#user-rollover.id-19157671 .meta,
 #user-rollover.id-3250095 .meta{
 height: 146px !important;
 }
@@ -74,14 +73,17 @@ height: 146px !important;
 }
 /*People who also support another things (eg. RCS)*/
 #user-rollover.id-4405644 .meta,
+#user-rollover.id-19157671 .meta,
 #user-rollover.id-5658276 .meta{
 height: 170px !important;
 }
 #user-rollover.id-4405644 .meta #isSpecial,
+#user-rollover.id-19157671 .meta #isSpecial,
 #user-rollover.id-5658276 .meta #isSpecial{
     top: 145px !important;
 }
 #user-rollover.id-4405644 .meta #isSpecialtxt,
+#user-rollover.id-19157671 .meta #isSpecialtxt,
 #user-rollover.id-5658276 .meta #isSpecialtxt {
     top: 143px !important;
 }
