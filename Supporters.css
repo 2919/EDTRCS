@@ -1,4 +1,5 @@
 /*donators:
+𝔁𝓶𝓪𝓷𝓻𝓸𝓶:  6184698
 Třąρ-Fя:     23785923
 iToxicMusic: 19157671
 Satskhi:     4405644
@@ -12,6 +13,7 @@ Timowh:      5658276
 }
 
 
+#chat [data-cid^='6184698-'] .un:before,
 #chat [data-cid^='23785923-'] .un:before,
 #chat [data-cid^='19157671-'] .un:before,
 #chat [data-cid^='4405644-'] .un:before,
@@ -22,6 +24,7 @@ Timowh:      5658276
     Left: -3px;
     position: relative;
 }
+#chat [data-cid^='6184698-'] .un,
 #chat [data-cid^='23785923-'] .un,
 #chat [data-cid^='19157671-'] .un,
 #chat [data-cid^='4405644-'] .un,
@@ -30,6 +33,7 @@ Timowh:      5658276
     top: -3px !important;
     position: relative;
 }
+#chat [data-cid^='6184698-'] .un:hover:after,
 #chat [data-cid^='23785923-'] .un:hover:after,
 #chat [data-cid^='19157671-'] .un:hover:after,
 #chat [data-cid^='4405644-'] .un:hover:after,
@@ -46,10 +50,12 @@ Timowh:      5658276
     height: 26px;
 }
 /*normal supporters*/
+#user-rollover.id-6184698 .meta,
 #user-rollover.id-23785923 .meta,
 #user-rollover.id-3250095 .meta{
 height: 146px !important;
 }
+#user-rollover.id-6184698 .meta:before,
 #user-rollover.id-23785923 .meta:before,
 #user-rollover.id-4405644 .meta:before,
 #user-rollover.id-5658276 .meta:before,
@@ -60,6 +66,7 @@ height: 146px !important;
     left: 109px;
     position: absolute;
 }
+#user-rollover.id-6184698 .meta:after,
 #user-rollover.id-23785923 .meta:after,
 #user-rollover.id-4405644 .meta:after,
 #user-rollover.id-5658276 .meta:after,
