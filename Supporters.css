@@ -94,3 +94,46 @@ height: 170px !important;
 #user-rollover.id-5658276 .meta #isSpecialtxt {
     top: 143px !important;
 }
+
+
+
+/* ------  unrelated  ------
+   ------ Event popup ------
+          By: Wolf   */
+#rs-toggle-sidebar{
+    background-image: url(http://i.imgur.com/rt7iWRy.png) !important;
+background-position: 0 0 !important;
+border-radius: 5px !important;
+border: 1px solid #282c35 !important;
+height: 30px !important;
+width: 100px !important;
+left: -130px !important;
+top: 20px !important;
+transition: all 0.5s ease;
+}
+
+
+#rs-toggle-sidebar.hiddenbar{
+height: 515px !important;
+width: 300px !important;
+left: -350px !important;
+}
+
+.app-right {
+    right: 0px !important;
+}
+
+#vote{
+left: calc(-17px + 50%) !important;
+}
+
+#playback{
+left: calc(-400px + 50%) !important;
+}
+
+#avatars-container{
+left: calc(-580px + 50%) !important;
+}
+.room-background {
+left: calc(-975px + 50%) !important;
+}
