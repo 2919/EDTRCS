@@ -113,7 +113,8 @@ transition: all 0.5s ease;
 }
 
 
-#rs-toggle-sidebar.hiddenbar{
+#rs-toggle-sidebar.hiddenbar,
+#rs-toggle-sidebar:hover{
 height: 515px !important;
 width: 300px !important;
 left: -350px !important;
