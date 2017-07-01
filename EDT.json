@@ -1,7 +1,7 @@
 {
     "room": "ϟ●Electro Dubstep & Techno●ϟ",
-    "author": "Satskhi/ EDT Staff",
-    "icon": "https://rawgit.com/Satskhi/EDTRCS/master/images/EDT-Logo.png",
+    "author": "WiBla, Wolf & Satskhi/ EDT Staff",
+    "icon": "https://rawgit.com/Satskhi/EDTRCS/master/images/EDT-Logo2.png",
     "css": "https://rawgit.com/Satskhi/EDTRCS/master/EDT.css",
     "rules": {
         "allowAutorespond": true,
@@ -27,7 +27,7 @@
         "user": null
     },
     "images": {
-        "background": null,
+        "background": "https://rawgit.com/Satskhi/EDTRCS/master/images/EDT-Background.jpg",
         "playback": "https://rawgit.com/Satskhi/EDTRCS/master/images/PlaybackEDT2.0.png",
         "admin": null,
         "ambassador": "https://rawgit.com/Satskhi/EDTRCS/master/images/BA.png",
