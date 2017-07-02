@@ -898,3 +898,71 @@ i.icon.icon-time {
 .jspDrag:hover, .jspTrack .jspActive, .jspTrack .jspHover, .experience .levels .level.earned.avatar .label {
     background: rgba(40, 120, 60, 0.95) !important;
 }
+
+
+
+/*
+ ┌————————————————————┐
+ │       Ranks        │
+ └————————————————————┘
+*/
+#chat .mention, #chat .mention:nth-child(2n+1),  #chat .mention.is-dj, #chat .mention.is-staff, #chat .mention.is-dj:nth-child(2n+1), #chat .mention.is-staff:nth-child(2n+1) {
+    background: linear-gradient(to left, rgba(37,185,97,0.3) 0%,rgba(0,0,0,0.75) 100%) !important;
+    border-left: rgba(40, 120, 60, 0.75) 3px solid !important;
+}
+
+/*
+ ┌————————————————————┐
+ │    Users-list      │
+ └————————————————————┘
+ Needs to be in this order &
+ separated from roles to
+ maintain correct priorities */
+#user-lists .group.host {
+    color: #31CE31;
+    background: linear-gradient(to right, hsla(120,61%,30%,.5), hsla(120,61%,20%,.5)) !important;
+}
+#user-lists .group.host ~ .user:nth-child(2) span {
+    color: #31CE31;
+    /* Making the host list being all co-host color &
+       only the first having host color allows room to
+       have as much co-hosts they want */
+}
+/* Co-hosts */
+#user-lists .group.host ~ .user span {
+    color: #27A427;
+}
+/* Managers */
+#user-lists .group.manager {
+    color: #68B354;
+    background: linear-gradient(to right, hsla(107,38%,40%,.5), hsla(107,38%,30%,.5)) !important;
+}
+#user-lists .group.manager ~ .user span {
+    color: #68B354;
+}
+/* Bouncers */
+#user-lists .group.bouncer {
+    color: #68B354;
+    background: linear-gradient(to right, hsla(107,38%,40%,.5), hsla(107,38%,30%,.5)) !important;
+}
+#user-lists .group.bouncer ~ .user span,
+.is-bouncer .name {
+    color: #68B354;
+}
+/* DJs */
+#user-lists .group.dj {
+    color: #68B354;
+    background: linear-gradient(to right, hsla(107,38%,40%,.5), hsla(107,38%,30%,.5)) !important;
+}
+#user-lists .group.dj ~ .user span,
+.is-dj .name, .is-staff .name { /* **Kind of** an rcs fix for subs on user-list */
+    color: #68B354;
+}
+/* Gold sub */
+#user-lists .icon-chat-subscriber + :not(.is-staff) span {
+    color: #FB3;
+}
+/* Silver sub */
+#user-lists .icon-chat-silver-subscriber + :not(.is-staff) span {
+    color: hsl(220,25%,70%);
+}
