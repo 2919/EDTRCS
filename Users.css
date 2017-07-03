@@ -45,6 +45,14 @@
      background-repeat: round !important;
      background-size: 30px !important;
  }
+/* Hover */
+[data-cid^="4405644-"] .badge-box .bdg:hover {
+	background-image: url("https://static-cdn.jtvnw.net/emoticons/v1/14023/3.0") !important;
+ }
+#user-rollover.id-4405644 .badge-box .bdg:hover {
+	background-image: url("https://static-cdn.jtvnw.net/emoticons/v1/14023/3.0") !important;
+ }
+/* Hover */
  /* Satskhi */
 
 /*old staff*/
