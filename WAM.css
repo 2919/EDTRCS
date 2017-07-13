@@ -1,16 +1,96 @@
-.icon-woot {
-    background-image: url(https://rawgit.com/Satskhi/EDTRCS/master/images/Icons/Woot.png);
-    background-position: 0px 0px;
+#vote .label{
+display: none !important;
 }
+#vote .value{
+ top: 25px !important;
+}
+#vote .top,
+#woot .icon,
+#grab .icon,
+#meh .icon{
+height: 80px !important;
+width: 80px !important;
+margin: 0 !important;
+top: 0 !important;
+}
+#woot.crowd-response .icon{
+ background: url('http://i.imgur.com/iKIItVK.png');
+}
+
+#woot.crowd-response.disabled .icon,
+#woot.crowd-response.selected .icon {
+ background: url('http://i.imgur.com/BafFD0c.png');
+}
+
+#grab.crowd-response .icon{
+ background: url('http://i.imgur.com/jX4IcNg.png');
+}
+
+#grab.crowd-response.disabled .icon,
+#grab.crowd-response.selected .icon {
+ background: url('http://i.imgur.com/JqNX2k4.png');
+}
+
+#meh.crowd-response .icon{
+ background: url('http://i.imgur.com/LRMrAXR.png');
+}
+
+#meh.crowd-response.disabled .icon,
+#meh.crowd-response.selected .icon {
+ background: url('http://i.imgur.com/tclldY6.png');
+}
+#woot,
+#grab,
+#meh{
+  height: 80px !important;
+  width: 80px !important;
+  border-radius: 50%;
+  border: 2px solid;
+  bottom: 10px !important;
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+#woot:hover,
+#grab:hover,
+#meh:hover {
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+#vote .bottom{
+ background: rgba(0, 0, 0, 0) !important;
+}
+#woot:not(.selected){
+  border: 2px solid #25b961;
+}
+#grab:not(.selected){
+  border: 2px solid #aa74ff;
+}
+#meh:not(.selected){
+  border: 2px solid #c42e3b;
+}
+
+#woot.selected {
+    background: #25b961 !important;
+}
+#grab.selected{
+    background: #aa74ff !important;
+}
+#meh.selected{
+    background: #c42e3b !important;
+}
+#vote .crowd-response.disabled .bottom {
+    background: rgba(0, 0, 0, 0.28);
+}
+
+
+
 #woot.crowd-response.disabled .icon:before,
 #woot.crowd-response.selected .icon:before {
-    content: url(https://rawgit.com/Satskhi/EDTRCS/master/images/Icons/WootW.png);
+    content: url(http://i.imgur.com/BafFD0c.png);
     position: absolute;
     right: 0px;
-    padding: 0 1px;
+    padding: 0 0px;
 }
 #woot.crowd-response .icon:before {
-    content: url(https://rawgit.com/Satskhi/EDTRCS/master/images/Icons/Woot.png);
+    content: url(http://i.imgur.com/iKIItVK.png);
     position: absolute;
     right: 0px;
     padding: 0 0px;
@@ -39,16 +119,16 @@
   }
 }
 #grab.crowd-response:not(.selected) .icon:after {
-    content: url(https://rawgit.com/Satskhi/EDTRCS/master/images/Icons/Grab.png);
+    content: url(http://i.imgur.com/jX4IcNg.png);
     position: absolute;
     right: 0px;
-    padding: 1px 1px;
+    padding: 1px -1px;
 }
 #grab.crowd-response.disabled .icon:after {
-    content: url(https://rawgit.com/Satskhi/EDTRCS/master/images/Icons/GrabW.png);
+    content: url(http://i.imgur.com/JqNX2k4.png);
     position: absolute;
     right: 0px;
-    padding: 1px 0px;
+    padding: 1px -1px;
 }
 #grab:hover .icon:after {
     -webkit-animation-name: grab;
@@ -77,16 +157,16 @@
 }
 #meh.crowd-response.disabled .icon:after,
 #meh.crowd-response.selected .icon:after {
-    content: url(https://rawgit.com/Satskhi/EDTRCS/master/images/Icons/MehW.png);
+    content: url(http://i.imgur.com/tclldY6.png);
     position: absolute;
     right: 0px;
-    padding: 0 1px;
+    padding: 0 0;
 }
 #meh.crowd-response .icon:after {
-    content: url(https://rawgit.com/Satskhi/EDTRCS/master/images/Icons/Meh.png);
+    content: url(http://i.imgur.com/LRMrAXR.png);
     position: absolute;
     right: 0px;
-    padding: 0 1px;
+    padding: 0 0;
 }
 #meh:hover .icon:after {
     -webkit-animation-name: meh;
@@ -128,133 +208,74 @@
     transform: scale(1);
   }
 }
-#woot,
-#grab,
-#meh {
-    background-color: rgba(0, 0, 0, 0.20) !important;
-}
-#vote .crowd-response.disabled .bottom {
-    background: rgba(0, 0, 0, 0.28) !important;
-}
 
-#woot .bottom,
-#grab .bottom,
-#meh .bottom {
-    background-color: transparent !important;
-}
-#vote >#woot.crowd-response,
-#vote >#woot.crowd-response .bottom {
-    -webkit-box-shadow:     inset 0 -3px 0 0 rgb(37, 185, 97) !important;
-    -moz-box-shadow:        inset 0 -3px 0 0 rgb(37, 185, 97) !important;
-    -o-box-shadow:          inset 0 -3px 0 0 rgb(37, 185, 97) !important;
-    box-shadow:             inset 0 -3px 0 0 rgb(37, 185, 97) !important;
-}
-#vote >#woot.crowd-response.selected .bottom,
-#vote >#woot.crowd-response:hover .bottom {
-    -webkit-box-shadow:     inset 0 -24px 0 0 rgb(37, 185, 97) !important;
-    -moz-box-shadow:        inset 0 -24px 0 0 rgb(37, 185, 97) !important;
-    -o-box-shadow:          inset 0 -24px 0 0 rgb(37, 185, 97) !important;
-    box-shadow:             inset 0 -24px 0 0 rgb(37, 185, 97) !important;
-}
-#vote >#woot.crowd-response.selected {
-    -webkit-box-shadow:     inset 0 -61px 0 0 rgb(37, 185, 97) !important;
-    -moz-box-shadow:        inset 0 -61px 0 0 rgb(37, 185, 97) !important;
-    -o-box-shadow:          inset 0 -61px 0 0 rgb(37, 185, 97) !important;
-    box-shadow:             inset 0 -61px 0 0 rgb(37, 185, 97) !important;
-}
-#vote >#grab.crowd-response .bottom,
-#vote >#grab.crowd-response .bottom {
-    -webkit-box-shadow:     inset 0 -3px 0 0 rgb(170, 116, 255) !important;
-    -moz-box-shadow:        inset 0 -3px 0 0 rgb(170, 116, 255) !important;
-    -o-box-shadow:          inset 0 -3px 0 0 rgb(170, 116, 255) !important;
-    box-shadow:             inset 0 -3px 0 0 rgb(170, 116, 255) !important;
-}
-#vote >#grab.crowd-response.selected .bottom,
-#vote >#grab.crowd-response:hover .bottom {
-    -webkit-box-shadow:     inset 0 -24px 0 0 rgb(170, 116, 255) !important;
-    -moz-box-shadow:        inset 0 -24px 0 0 rgb(170, 116, 255) !important;
-    -o-box-shadow:          inset 0 -24px 0 0 rgb(170, 116, 255) !important;
-    box-shadow:             inset 0 -24px 0 0 rgb(170, 116, 255) !important;
-}
-#vote >#grab.crowd-response.selected {
-    -webkit-box-shadow:     inset 0 -61px 0 0 rgb(170, 116, 255) !important;
-    -moz-box-shadow:        inset 0 -61px 0 0 rgb(170, 116, 255) !important;
-    -o-box-shadow:          inset 0 -61px 0 0 rgb(170, 116, 255) !important;
-    box-shadow:             inset 0 -61px 0 0 rgb(170, 116, 255) !important;
-}
-#vote >#meh.crowd-response,
-#vote >#meh.crowd-response .bottom {
-    -webkit-box-shadow:     inset 0 -3px 0 0 rgb(196, 46, 59) !important;
-    -moz-box-shadow:        inset 0 -3px 0 0 rgb(196, 46, 59) !important;
-    -o-box-shadow:          inset 0 -3px 0 0 rgb(196, 46, 59) !important;
-    box-shadow:             inset 0 -3px 0 0 rgb(196, 46, 59) !important;
-}
-#vote >#meh.crowd-response.selected .bottom,
-#vote >#meh.crowd-response:hover .bottom {
-    -webkit-box-shadow:     inset 0 -24px 0 0 rgb(196, 46, 59) !important;
-    -moz-box-shadow:        inset 0 -24px 0 0 rgb(196, 46, 59) !important;
-    -o-box-shadow:          inset 0 -24px 0 0 rgb(196, 46, 59) !important;
-    box-shadow:             inset 0 -24px 0 0 rgb(196, 46, 59) !important;
-}
-#vote >#meh.crowd-response.selected {
-    -webkit-box-shadow:     inset 0 -61px 0 0 rgb(196, 46, 59) !important;
-    -moz-box-shadow:        inset 0 -61px 0 0 rgb(196, 46, 59) !important;
-    -o-box-shadow:          inset 0 -61px 0 0 rgb(196, 46, 59) !important;
-    box-shadow:             inset 0 -61px 0 0 rgb(196, 46, 59) !important;
-}
-#chat .un,
-#vote,
-#woot,
-#woot .top,
-#woot .bottom,
-#grab,
-#grab .top,
-#grab .bottom,
-#meh,
-#meh .top,
-#meh .bottom {
-    -webkit-transition:     all 0.3s ease;
-    -moz-transition:        all 0.3s ease;
-    -o-transition:          all 0.3s ease;
-    transition:             all 0.3s ease;
-}
 #dj-button {
-    width: 158px;
-    border-radius: 4px;
-    background-color: rgba(255, 255, 255, 0.1) !important;
+   background-color: rgba(0, 0, 0, 0) !important;
 }
-#dj-button span {
-    margin-left: 5px;
+#dj-button:hover {
+   background-color: rgba(0, 0, 0, 0.35) !important;
 }
 #dj-button .left{
-    height: 61px;
-    border-radius: 4px;
-    width: 158px;
-    transition: 0.3s;
+ background: rgba(0, 0, 0, 0) !important;
 }
-#dj-button .left .icon{
-    left: 65px;
+#dj-button {
+    left: 25px !important;
+    right: 1100px !important;
+    margin: auto;
 }
-#dj-button:not(.is-locked):hover .left {
-    top: -53px;
+#dj-button {
+    width: 72px !important;
+}
+#dj-button span{
+    opacity: 0;
+    width: 120px;
+
+}
+#dj-button:hover span{
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+    opacity: 1.0;
+    width: 148px;
+}
+#dj-button:hover {
+    width: 230px !important;
+}
+#dj-button {
+    border-radius: 50px;
 }
 #dj-button.is-locked {
     cursor: no-drop;
 }
-#dj-button.is-full .left, #dj-button.is-locked .left {
-    background:
-    linear-gradient(rgba(255,255,255,.1), rgba(0,0,0,.1)),
-    #484848
+#dj-button.is-full, #dj-button.is-locked {
+border: 2px solid #585858;
 }
-#dj-button.is-leave .left, #dj-button.is-quit .left {
-    background:
-    linear-gradient(rgba(255,255,255,.1), rgba(0,0,0,.1)),
-    #c42e3b
+#dj-button.is-leave, #dj-button.is-quit {
+border: 2px solid #c42e3b;
 }
-#dj-button .left {
-    background:
-    linear-gradient(rgba(255,255,255,.1), rgba(0,0,0,.1)),
-    #25b961
+#dj-button {
+border: 2px solid #25b961;
+}
+#dj-button span{
+pointer-events: none;
+}
+#dj-button:hover span{
+pointer-events: auto;
+}
+
+#dj-button,
+#dj-button span,
+#chat .un,
+#vote,
+#woot,
+#woot .top
+#grab,
+#grab .top
+#meh,
+#meh .top{
+    -webkit-transition:     all 0.3s ease;
+    -moz-transition:        all 0.3s ease;
+    -o-transition:          all 0.3s ease;
+    transition:             all 0.3s ease;
 }
 /*
  ┌————————————————————┐
