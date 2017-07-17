@@ -223,6 +223,9 @@ top: 0 !important;
     right: 1100px !important;
     margin: auto;
 }
+.video-only #dj-button{
+   left: 0px !important;
+}
 #dj-button {
     width: 72px !important;
 }
