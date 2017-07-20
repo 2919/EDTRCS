@@ -65,7 +65,7 @@
 #chat [data-cid^='3250095-'] .un:hover:after,
 #chat [data-cid^='19157671-'] .un:hover:after{
     content: 'EDT Supporter';
-    background: url('https://rawgit.com/Satskhi/EDTRCS/master/images/tooltip.png');
+    background: url('https://rawgit.com/Satskhi/EDTRCS/master/images/tt.png');
     padding: 3px 6px;
     color: white;
     bottom: 20px;
@@ -77,7 +77,7 @@
 /*tooltip Champion
 {
     content: 'EDT Champion';
-    background: url('https://rawgit.com/Satskhi/EDTRCS/master/images/tooltip.png');
+    background: url('https://rawgit.com/Satskhi/EDTRCS/master/images/tt.png');
     padding: 3px 6px;
     color: white;
     bottom: 20px;
@@ -91,7 +91,7 @@
 #chat [data-cid^='23785923-'] .un:hover:after,
 #chat [data-cid^='5658276-'] .un:hover:after {
     content: 'EDT Legend!';
-    background: url('https://rawgit.com/Satskhi/EDTRCS/master/images/tooltip.png');
+    background: url('https://rawgit.com/Satskhi/EDTRCS/master/images/tt.png');
     padding: 3px 6px;
     color: white;
     bottom: 20px;
