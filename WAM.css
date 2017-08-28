@@ -14,30 +14,30 @@ margin: 0 !important;
 top: 0 !important;
 }
 #woot.crowd-response .icon{
- background: url('http://i.imgur.com/iKIItVK.png');
+ background: url('https://rawgit.com/Satskhi/EDTRCS/master/images/Icons/bWoot.png');
 }
 
 #woot.crowd-response.disabled .icon,
 #woot.crowd-response.selected .icon {
- background: url('http://i.imgur.com/BafFD0c.png');
+ background: url('https://rawgit.com/Satskhi/EDTRCS/master/images/Icons/bWootW.png');
 }
 
 #grab.crowd-response .icon{
- background: url('http://i.imgur.com/jX4IcNg.png');
+ background: url('https://rawgit.com/Satskhi/EDTRCS/master/images/Icons/bGrab.png');
 }
 
 #grab.crowd-response.disabled .icon,
 #grab.crowd-response.selected .icon {
- background: url('http://i.imgur.com/JqNX2k4.png');
+ background: url('https://rawgit.com/Satskhi/EDTRCS/master/images/Icons/bGrabW.png');
 }
 
 #meh.crowd-response .icon{
- background: url('http://i.imgur.com/LRMrAXR.png');
+ background: url('https://rawgit.com/Satskhi/EDTRCS/master/images/Icons/bMeh.png');
 }
 
 #meh.crowd-response.disabled .icon,
 #meh.crowd-response.selected .icon {
- background: url('http://i.imgur.com/tclldY6.png');
+ background: url('https://rawgit.com/Satskhi/EDTRCS/master/images/Icons/bMehW.png');
 }
 #woot,
 #grab,
@@ -84,13 +84,13 @@ top: 0 !important;
 
 #woot.crowd-response.disabled .icon:before,
 #woot.crowd-response.selected .icon:before {
-    content: url(http://i.imgur.com/BafFD0c.png);
+    content: url(https://rawgit.com/Satskhi/EDTRCS/master/images/Icons/bWootW.png);
     position: absolute;
     right: 0px;
     padding: 0 0px;
 }
 #woot.crowd-response .icon:before {
-    content: url(http://i.imgur.com/iKIItVK.png);
+    content: url(https://rawgit.com/Satskhi/EDTRCS/master/images/Icons/bWoot.png);
     position: absolute;
     right: 0px;
     padding: 0 0px;
@@ -119,13 +119,13 @@ top: 0 !important;
   }
 }
 #grab.crowd-response:not(.selected) .icon:after {
-    content: url(http://i.imgur.com/jX4IcNg.png);
+    content: url(https://rawgit.com/Satskhi/EDTRCS/master/images/Icons/bGrab.png);
     position: absolute;
     right: 0px;
     padding: 1px -1px;
 }
 #grab.crowd-response.disabled .icon:after {
-    content: url(http://i.imgur.com/JqNX2k4.png);
+    content: url(https://rawgit.com/Satskhi/EDTRCS/master/images/Icons/bGrabW.png);
     position: absolute;
     right: 0px;
     padding: 1px -1px;
@@ -157,13 +157,13 @@ top: 0 !important;
 }
 #meh.crowd-response.disabled .icon:after,
 #meh.crowd-response.selected .icon:after {
-    content: url(http://i.imgur.com/tclldY6.png);
+    content: url(https://rawgit.com/Satskhi/EDTRCS/master/images/Icons/bMehW.png);
     position: absolute;
     right: 0px;
     padding: 0 0;
 }
 #meh.crowd-response .icon:after {
-    content: url(http://i.imgur.com/LRMrAXR.png);
+    content: url(https://rawgit.com/Satskhi/EDTRCS/master/images/Icons/bMeh.png);
     position: absolute;
     right: 0px;
     padding: 0 0;
