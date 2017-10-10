@@ -42,3 +42,18 @@
 	background: url("https://rawgit.com/Satskhi/EDTRCS/master/images/RDJ.png") !important;
 }
 /* Staff */
+
+/*new roles n stuff*/
+/*promoter and plot*/
+.is-plot .name,
+#user-rollover.is-plot .info .role span,
+#chat .from.plot .un,
+.is-promoter .name,
+#user-rollover.is-promoter .info .role span,
+#chat .from.promoter .un {
+        color: #8694b2;
+}
+.icon-chat-plot,
+.icon-chat-promoter{
+       filter: grayscale(100%);
+}
