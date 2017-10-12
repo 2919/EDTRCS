@@ -1,11 +1,12 @@
 /*donators:
 [1]Linkage:     4140726
+[1]ᖴᖇᕦᔚᖺᗪᔢᘜ:    23500403
 [1]Cara:        3822355
-[1]Xmanrom:     6184698
+[2]Xmanrom:     6184698
 [3]Třąρ-Fя:     23785923
 [1]iToxicMusic: 19157671
 [1]Satskhi:     4405644
-[1]Pombär:      3250095
+[2]Pombär:      3250095
 [3]Timowh:      5658276
 */
 
@@ -16,10 +17,9 @@
 
 /*chat icon supporter*/
 #chat [data-cid^='4140726-'] .un:before,
+#chat [data-cid^='23500403-'] .un:before,
 #chat [data-cid^='3822355-'] .un:before,
 #chat [data-cid^='23785923-'] .un:before,
-#chat [data-cid^='6184698-'] .un:before,
-#chat [data-cid^='3250095-'] .un:before,
 #chat [data-cid^='19157671-'] .un:before,
 #chat [data-cid^='4405644-'] .un:before {
     content: url("https://rawgit.com/Satskhi/EDTRCS/master/images/EDT-supporter.png");
@@ -27,13 +27,14 @@
     Left: -3px;
     position: relative;
 }
-/*chat icon champion
- {
+/*chat icon champion*/
+#chat [data-cid^='6184698-'] .un:before,
+#chat [data-cid^='3250095-'] .un:before {
     content: url("https://rawgit.com/Satskhi/EDTRCS/master/images/EDT-Champion.png");
     top: 3px;
     Left: -3px;
     position: relative;
-}*/
+}
 
 /*chat icon legend*/
 #chat [data-cid^='23785923-'] .un:before,
@@ -48,6 +49,7 @@
 
 /*padding*/
 #chat [data-cid^='4140726-'] .un,
+#chat [data-cid^='23500403-'] .un,
 #chat [data-cid^='3822355-'] .un,
 #chat [data-cid^='6184698-'] .un,
 #chat [data-cid^='23785923-'] .un,
@@ -60,12 +62,11 @@
 }
 /*tooltip supporter*/
 #chat [data-cid^='4140726-'] .un:hover:after,
+#chat [data-cid^='23500403-'] .un:hover:after,
 #chat [data-cid^='3822355-'] .un:hover:after,
-#chat [data-cid^='6184698-'] .un:hover:after,
-#chat [data-cid^='3250095-'] .un:hover:after,
 #chat [data-cid^='19157671-'] .un:hover:after{
     content: 'EDT Supporter';
-    background: url('https://rawgit.com/Satskhi/EDTRCS/master/images/tt.png');
+    background: url('https://rawgit.com/Satskhi/EDTRCS/master/images/tooltip.png');
     padding: 3px 6px;
     color: white;
     bottom: 20px;
@@ -74,10 +75,11 @@
     width: 79px;
     height: 26px;
 }
-/*tooltip Champion
-{
+/*tooltip Champion*/
+#chat [data-cid^='6184698-'] .un:hover:after,
+#chat [data-cid^='3250095-'] .un:hover:after {
     content: 'EDT Champion';
-    background: url('https://rawgit.com/Satskhi/EDTRCS/master/images/tt.png');
+    background: url('https://rawgit.com/Satskhi/EDTRCS/master/images/tooltip.png');
     padding: 3px 6px;
     color: white;
     bottom: 20px;
@@ -85,13 +87,13 @@
     left: 5px;
     width: 80px;
     height: 26px;
-}*/
+}
 
 /*tooltip Legend*/
 #chat [data-cid^='23785923-'] .un:hover:after,
 #chat [data-cid^='5658276-'] .un:hover:after {
     content: 'EDT Legend!';
-    background: url('https://rawgit.com/Satskhi/EDTRCS/master/images/tt.png');
+    background: url('https://rawgit.com/Satskhi/EDTRCS/master/images/tooltip.png');
     padding: 3px 6px;
     color: white;
     bottom: 20px;
@@ -103,6 +105,7 @@
 
 /*normal supporters*/
 #user-rollover.id-4140726 .meta,
+#user-rollover.id-23500403 .meta,
 #user-rollover.id-3822355 .meta,
 #user-rollover.id-6184698 .meta,
 #user-rollover.id-23785923 .meta,
@@ -112,9 +115,8 @@ height: 146px !important;
 }
 /*EDT Suppoter*/
 #user-rollover.id-4140726 .meta:before,
+#user-rollover.id-23500403 .meta:before,
 #user-rollover.id-3822355 .meta:before,
-#user-rollover.id-6184698 .meta:before,
-#user-rollover.id-3250095 .meta:before,
 #user-rollover.id-4405644 .meta:before,
 #user-rollover.id-19157671 .meta:before{
     content: url("https://rawgit.com/Satskhi/EDTRCS/master/images/EDT-supporter.png");
@@ -123,9 +125,8 @@ height: 146px !important;
     position: absolute;
 }
 #user-rollover.id-4140726 .meta:after,
+#user-rollover.id-23500403 .meta:after,
 #user-rollover.id-3822355 .meta:after,
-#user-rollover.id-6184698 .meta:after,
-#user-rollover.id-3250095 .meta:after,
 #user-rollover.id-4405644 .meta:after,
 #user-rollover.id-19157671 .meta:after{
     content: 'EDT Supporter';
@@ -134,20 +135,22 @@ height: 146px !important;
     top: 118px;
     left: 130px;
 }
-/*EDT Champion
-{
+/*EDT Champion*/
+#user-rollover.id-6184698 .meta:before,
+#user-rollover.id-3250095 .meta:before{
     content: url("https://rawgit.com/Satskhi/EDTRCS/master/images/EDT-Champion.png");
     top: 120px;
     left: 109px;
     position: absolute;
 }
-{
+#user-rollover.id-6184698 .meta:after,
+#user-rollover.id-3250095 .meta:after{
     content: 'EDT Champion';
     color: #808691;
     position: absolute;
     top: 118px;
     left: 130px;
-}*/
+}
 
 /*EDT Legend*/
 #user-rollover.id-5658276 .meta:before,
