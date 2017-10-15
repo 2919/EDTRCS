@@ -44,6 +44,15 @@ html {
 .room-background {
     background-image: url(https://rawgit.com/Satskhi/EDTRCS/master/images/EDT-Background.jpg) !important;
 }
+/*p3 fix*/
+.room-background:before{
+content: " ";
+background: url(https://i.imgur.com/FFpjfD4.jpg);
+position:absolute;
+height: 100%;
+width: 100%;
+}
+
 
 #room-name, #room-host, #now-playing-dj, #now-playing-media {
     color: #fff !important;
