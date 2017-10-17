@@ -47,7 +47,7 @@ html {
 /*p3 fix*/
 .room-background:before{
 content: " ";
-background: url(https://i.imgur.com/FFpjfD4.jpg);
+background: url(https://i.imgur.com/FFpjfD4.jpg) no-repeat;
 position:absolute;
 height: 100%;
 width: 100%;
