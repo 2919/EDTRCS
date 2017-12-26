@@ -184,3 +184,23 @@ height: 170px !important;
     top: 167px;
     left: 134px;
 }
+
+
+/*
+ ┌————————————————————┐
+ │      Donators      │
+ └————————————————————┘
+ */
+/*xmanrom*/
+ [data-cid^="6184698-"] .badge-box .bdg {
+     border-radius: 6px !important;
+     background-image: url("https://cdn.radiant.dj/rcs/emotes/img/tastyplug/kong.gif") !important;
+     background-repeat: round !important;
+     background-size: 30px !important;
+ }
+ #user-rollover.id-6184698 .badge-box .bdg {
+     border-radius: 8px !important;
+     background-image: url("https://cdn.radiant.dj/rcs/emotes/img/tastyplug/kong.gif") !important;
+     background-repeat: round !important;
+     background-size: 30px !important;
+ }
