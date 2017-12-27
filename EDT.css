@@ -43,12 +43,12 @@ html {
     background-size: cover !important;
 }
 .room-background {
-    background-image: url(https://rawgit.com/Satskhi/EDTRCS/master/images/EDT-Christmas.jpg) !important;
+    background-image: url(https://rawgit.com/Satskhi/EDTRCS/master/images/EDT-Christmas3.jpg) !important;
 }
 /*p3 fix*/
 .room-background:before{
 content: " ";
-background: url(https://i.imgur.com/dIVHBW3.jpg) no-repeat;
+background: url(https://i.imgur.com/QuJHZHB.png) no-repeat;
 position:absolute;
 height: 100%;
 width: 100%;
